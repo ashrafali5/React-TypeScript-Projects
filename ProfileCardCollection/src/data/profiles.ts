@@ -1,0 +1,66 @@
+import { type profile } from "../Components/ProfileCard";
+
+export const profiles: profile[] = [
+  {
+    id: 1,
+    name: "Alex Johnson",
+    role: "Frontend Developer",
+    bio: "I build modern web applications with React and TypeScript.",
+    image: "https://i.pravatar.cc/150?img=1",
+    github: "https://github.com/ashrafali5",
+    linkedin: "https://www.linkedin.com/in/ashraf-ali-96100533a/",
+    available: true,
+  },
+  {
+    id: 2,
+    name: "Sarah Williams",
+    role: "UI/UX Designer",
+    bio: "I design simple and enjoyable digital experiences.",
+    image: "https://i.pravatar.cc/150?img=2",
+    github: "https://github.com/ashrafali5",
+    linkedin: "https://www.linkedin.com/in/ashraf-ali-96100533a/",
+    available: true,
+  },
+  {
+    id: 3,
+    name: "John Smith",
+    role: "Backend Developer",
+    bio: "I build APIs and scalable server-side applications.",
+    image: "https://i.pravatar.cc/150?img=3",
+    github: "https://github.com/ashrafali5",
+    linkedin: "https://www.linkedin.com/in/ashraf-ali-96100533a/",
+    available: false,
+  },
+  {
+    id: 4,
+    name: "Emma Davis",
+    role: "Product Designer",
+    bio: "I create clean interfaces and thoughtful user experiences.",
+    image: "https://i.pravatar.cc/150?img=4",
+    github: "https://github.com/ashrafali5",
+    linkedin: "https://www.linkedin.com/in/ashraf-ali-96100533a/",
+    available: true,
+  },
+  {
+    id: 5,
+    name: "Rand",
+    role: "React Developer",
+    bio: "I create clean interfaces and thoughtful user experiences.",
+    image:
+      "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=M3w4MjcwNjd8MHwxfHNlYXJjaHwyfHxwcm9maWxlfGVufDB8fHx8MTc5MTA4Mzc1M3ww&ixlib=rb-4.1.0&fit=max&q=80",
+    github: "https://github.com/ashrafali5",
+    linkedin: "https://www.linkedin.com/in/ashraf-ali-96100533a/",
+    available: true,
+  },
+  {
+    id: 6,
+    name: "Roman",
+    role: "Python Developer",
+    bio: "I create clean interfaces and thoughtful user experiences.",
+    image:
+      "https://images.unsplash.com/photo-1695927621677-ec96e048dce2?ixid=M3w4MjcwNjd8MHwxfHNlYXJjaHw1fHxwcm9maWxlfGVufDB8fHx8MTc5MTA4Mzc1M3ww&ixlib=rb-4.1.0&fit=max&q=80",
+    github: "https://github.com/ashrafali5",
+    linkedin: "https://www.linkedin.com/in/ashraf-ali-96100533a/",
+    available: false,
+  },
+];
